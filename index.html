@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRI Test Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Add logo image here -->
+        <img src="https://i.postimg.cc/23s1Cr8z/logo.png" alt="Logo" class="logo">
+
+        <h1>APRI Test Calculator</h1>
+
+        <form id="apriForm">
+            <label for="astLevel">AST Level (IU/L):</label>
+            <input type="text" id="astLevel" placeholder="Enter AST Level">
+
+            <label for="upperLimitAST">Upper Limit AST (IU/L):</label>
+            <input type="text" id="upperLimitAST" placeholder="Enter Upper Limit AST">
+
+            <label for="plateletCount">Platelet Count (10^9/L):</label>
+            <input type="text" id="plateletCount" placeholder="Enter Platelet Count">
+
+            <button type="button" onclick="calculateAPRI()">Calculate APRI</button>
+			<button type="button" onclick="showInterpretation()">Interpretation</button>
+            <button type="button" onclick="resetForm()">Reset</button>
+        </form>
+
+        <div id="result"></div>
+        <div id="interpretation"></div>
+    </div>
+
+    <div id="designer">Suggested by S.Bicha and designed by A.May</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
