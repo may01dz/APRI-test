@@ -1,5 +1,5 @@
 body {
-    font-family: roboto, Century Gothic, Mistral, cursive, sans-serif;
+    font-family: 'Century Gothic', Mistral, cursive, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -33,7 +33,7 @@ label {
 }
 
 input {
-    font-family: roboto, Century Gothic, Mistral, cursive, sans-serif;
+    font-family: 'Century Gothic', Mistral, cursive, sans-serif;
     width: calc(100% - 20px);
     padding: 8px;
     margin-bottom: 10px;
@@ -56,7 +56,7 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
-  font-family: roboto, Century Gothic, Mistral, cursive, sans-serif;
+  font-family: 'Century Gothic', Mistral, cursive, sans-serif;
   font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ button {
     font-weight: bold;
     font-size: 18px;
     color: #171818;
-    font-family: roboto, Century Gothic, Mistral, cursive, sans-serif;
+    font-family: 'Century Gothic', Mistral, cursive, sans-serif;
 }
 
 #designer {
@@ -80,13 +80,13 @@ button {
     font-size: 14px;
     color: #333;
     text-align: center;
-    font-family: roboto, Century Gothic, Mistral, cursive, sans-serif;
+    font-family: 'Century Gothic', Mistral, cursive, sans-serif;
 }
 
 /* Add these styles at the end of your existing styles.css file */
 
 .en {
-    font-family: roboto, Century Gothic, Mistral, cursive, sans-serif;
+    font-family: 'Century Gothic', Mistral, cursive, sans-serif;
 	font-weight: normal;
     font-size: 16px;
     color: #333;
@@ -98,7 +98,7 @@ button {
 }
 
 .fr {
-    font-family: roboto, Century Gothic, Mistral, cursive, sans-serif;
+    font-family: 'Century Gothic', Mistral, cursive, sans-serif;
 	font-weight: normal;
     font-size: 16px;
     color: #333;
