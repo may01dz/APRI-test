@@ -2,33 +2,36 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ebe0df;
+    background-color: white;
 }
 
 .container {
     max-width: 400px;
     margin: 20px auto;
-    background-color: #ebe0df;
+    background-color: #B565A7;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
+	
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
     text-align: center;
+	font-size: 16px;
 }
 
 form {
-    text-align: center;
+    text-align: left;
+	font-size: 14px;
 }
 
 label {
     display: block;
     margin: 10px 0 5px;
-    font-size: 16px;
-    color: #333;
+    font-size: 15px;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -40,7 +43,7 @@ input {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Style the buttons */
@@ -48,11 +51,12 @@ button {
     background-color: white;
     color: black;
     border: 2px solid #e7e7e7;
-    padding: 15px 20px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
+	font-family: 'Roboto', sans-serif;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
@@ -79,37 +83,54 @@ button {
 #result, #interpretation {
     margin-top: 20px;
     font-weight: bold;
-    font-size: 18px;
-    color: #171818;
+    font-size: 14px;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
+	font-style: oblique;
 }
 
 #designer {
-    margin-top: 20px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 12px;
     color: #333;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+	font-style: italic;
 }
 
 .en {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #333;
-    background-color: #ebe0df; /* Light Blue Background */
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #B565A7; /* Light Blue Background */
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #faf7f7;
+    border: 1px solid #B565A7;
     border-radius: 8px;
+	font-style: oblique;
+	font-weight: bold;
 }
 
 .fr {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #333;
-    background-color: #ebe0df; /* Light Blue Background */
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #B565A7; /* Light Blue Background */
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #faf7f7;
+    border: 1px solid #B565A7;
     border-radius: 8px;
+	font-style: oblique;
+	font-weight: bold;
 }
+/* Add these styles at the end of your existing styles.css file */
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+
