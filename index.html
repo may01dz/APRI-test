@@ -10,17 +10,20 @@
 <body>
 
     <div class="container">
-        <h1>APRI Test Calculator</h1>
+	    <!-- Add new logo image here -->
+        <img src="https://i.postimg.cc/Yqh7zP6f/liver-1.png" alt="Logo" class="logo">
+	    <h1>APRI Test Calculator</h1>
+		<div id="designer">Suggested by Dr. S.Bicha, designed by A.May</div>
 
         <form id="apriForm">
             <label for="astLevel">AST Level (IU/L):</label>
-            <input type="text" id="astLevel" placeholder="Enter AST Level">
+            <input type="text" id="astLevel" placeholder="Enter AST Level (Norm: 15-41)">
 
             <label for="upperLimitAST">Upper Limit AST (IU/L):</label>
-            <input type="text" id="upperLimitAST" placeholder="Enter Upper Limit AST">
+            <input type="text" id="upperLimitAST" placeholder="Enter Upper Limit AST (40)">
 
             <label for="plateletCount">Platelet Count (10^9/L):</label>
-            <input type="text" id="plateletCount" placeholder="Enter Platelet Count">
+            <input type="text" id="plateletCount" placeholder="Enter Platelet Count (Norm: 150-350)">
 
             <button type="button" onclick="calculateAPRI()"><i class="fas fa-calculator"></i> Calculate APRI</button>
             <button type="button" onclick="showInterpretation()"><i class="fas fa-info-circle"></i> Interpretation</button>
@@ -30,8 +33,6 @@
         <div id="result"></div>
         <div id="interpretation"></div>
     </div>
-
-    <div id="designer">Suggested by S.Bicha and designed by A.May</div>
 
     <script src="script.js"></script>
 
